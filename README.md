@@ -4,4 +4,4 @@
 <br>
 Donations appreciated:
 <br>
-Cashapp: [KamiCYun](https://cash.app/$KamiCYun)
+Cashapp: [$KamiCYun](https://cash.app/$KamiCYun)
