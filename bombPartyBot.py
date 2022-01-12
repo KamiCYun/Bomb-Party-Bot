@@ -7,7 +7,7 @@ import requests
 import json
 from colorama import Fore, init
 import datetime
-
+import os
 init()
 caps = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 lower = "abcdefghijklmnopqrstuvwxyz"
@@ -28,7 +28,9 @@ def printStatus(color, message):
 class BombPartyBot:
     def __init__(self, name, roomCode, typeDelay) -> None:
         printStatus("yellow", "Initializing BP-Bot...")
-        file = open(r"C:\Users\kamic\Desktop\Coding Projects\bombParty\words.txt", "r")
+        script_dir = os.path.dirname(__file__)
+        abs_file_path = os.path.join(script_dir, "words.txt")
+        file = open(abs_file_path, "r+")
         self.wordlist = file.readlines()
         self.usedWords = []
         self.typeDelay = typeDelay
