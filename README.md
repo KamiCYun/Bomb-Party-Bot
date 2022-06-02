@@ -1,5 +1,5 @@
 # Bomb Party Bot
- BP-Bot is a robust tool to automate playing the online game Bomb Party.
+Got bored and made this for fun, messy code.
 <br>
 <br>
 Donations appreciated:
